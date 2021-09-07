@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica, sans-serif ;
+    box-sizing: border-box;
+}
+
+/* FRONT PAGE */
+.wrapper{
+    background: linear-gradient(rgba(63, 153, 255, 0.616),rgba(3, 137, 247, 0.466)),url(img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.inwrap{
+    width: 80%;
+    margin: auto;
+    height: 40vh;
+    padding: 40px 20px;
+}
+
+.navbar{
+    display: flex;
+}
+
+
+.brand{
+    text-decoration: none !important;
+    color: white;
+    font-size: 24px;
+    float: left;
+    position: relative;
+    margin: 12px;
+    padding: 3px;
+}
+
+#menu{
+    color: white;
+    width: 100%;
+    padding: 14px;
+    margin-top: -70px;
+}
+
+.list{
+    display: flex;
+    font-size: 18px;
+    float: right;
+}
+
+li{
+    list-style: none;
+    margin: 8px 32px;
+    
+}
+
+.banner{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    padding: 16px;
+}
+
+.banner-header h1{
+    font-size: 46px;
+    color: white;
+    margin: 6px;
+}
+
+.banner-header p{
+    font-size: 20px;
+    margin: 4px;
+    color: white;
+}
+
+.button{
+    margin: 20px;
+    font-size: 18px;
+    padding: 8px 14px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 250px;
+    color: white;
+}
+
+#btn1{
+    padding: 8px 20px;
+}
+
+/* CONTENT STARTS FROM HERE */
+.content{
+    width: 100%;
+    padding-top: 40px;
+    background-color: white;
+}
+
+.features{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.feat{
+    margin: 18px;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    
+}
+
+.feat:hover{
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+    transform: translateY(-20px);
+    transition: all .5s;
+}
+
+.cont{
+    margin: 12px;
+    padding: 12px;
+}
+
+#fa{
+    font-size: 2rem;
+    color: teal;
+    margin: 6px;
+}
+
+.feat h2{
+    margin: 6px;
+    color: teal;
+    font-size: 2rem;
+}
+
+.feat p{
+    color: rgb(117, 117, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.below-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 1.2em;
+}
+
+.cont-header{
+    text-align: center;
+}
+
+.cont-header h1{
+    font-size: 2rem;
+    margin: 6px;
+    color: rgb(58, 39, 39);
+}
+
+.cont-header p{
+    color: grey;
+    font-size: 1rem;
+}
+
+.per-cover{
+    margin: 25px;
+    
+}
+
+.bootstrap{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.percent{
+    width: 50%;
+}
+
+.specification{
+    width: 50%;
+}
+
+.spec{
+   
+    margin: 12px;
+    padding: 12px;
+    font-size: small;
+    height: 70vh;
+}
+
+.icon{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 18px;
+    
+}
+
+.spec-cont{
+    
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+
+
+/* RECORD STARTS FROM HERE */
+
+.records{
+    width: 100%;
+    background: linear-gradient(rgba(214, 214, 214, 0.616),rgba(154, 155, 155, 0.466)),url(img.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+.rec{
+    width: 80%;
+    display: flex;
+    margin: 60px auto;
+}
+
+.data{
+    margin: auto;
+}
+
+/* PRICING */
+
+
+.footer-banner{
+    width: 100%;
+    background: linear-gradient(160deg, rgb(67, 195, 255) 55%, rgb(178, 231, 252) 0%);
+}
+
+.pricing{
+    width: 60%;
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+}
+
+.pricing h3{
+    color: white;
+    margin: 20px 0 60px 0; 
+}
+
+.three-price{
+    display: flex;
+}
+
+.price{
+    border: 1px solid rgb(136, 136, 136);
+    margin: 12px 24px;
+    background-color: white;
+    padding: 12px;
+}
+
+.price:hover{
+    color: #16c9f6;
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+    transition: all .5s;
+}
+
+.inprice{
+    padding: 10px;
+}
+
+.info{
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    padding: 8px 40px;
+    margin: 12px;
+}
+
+#button{
+    padding: 6px;
+    margin: 0 2px 8px 2px;
+    font-size: 14px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.information{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.input{
+    margin: 20px;
+}
+
+.fill{
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid silver;
+}
+
+textarea{
+    height: 200px;
+}
+
+#send-message{
+    background: none;
+    border: 2px solid rgb(151, 151, 151);
+    color: rgb(99, 99, 99);
+    padding: 10px 24px;
+    border-radius: 200px;
+    margin: 20px ;
+    font-size: 10px;
+}
+
+.copyright{
+    margin: 8px;
+    font-size: smaller;
+}
